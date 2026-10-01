@@ -38,7 +38,7 @@ Their is a detailed help file to explain the all the key functions.
 
 ## Installation & Running
 
-1. Clone or download the repository containing `hdm_launcher_2.py`.
+1. Clone or download the repository containing `hdm_launcher.py`.
 2. Open your terminal or command prompt in the project directory.
 3. Run the application using Python:
 
