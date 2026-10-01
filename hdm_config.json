@@ -1,0 +1,1187 @@
+{
+  "colors": {
+    "DOS_BLUE": "#0000AA",
+    "DOS_CYAN": "#00FFFF",
+    "DOS_TIFFANY_BLUE": "#00AAAA",
+    "DOS_WHITE": "#FFFFFF",
+    "DOS_YELLOW": "#FFFF55",
+    "DOS_BLACK": "#000000",
+    "DOS_GRAY": "#AAAAAA",
+    "DOS_GREEN": "#00AA00",
+    "DOS_RED": "#AA0000",
+    "DOS_DARK_BLUE": "#000055",
+    "DOS_AQUAMARINE": "#3D3DE7",
+    "DOS_ULTRA_GREEN": "#55FF55",
+    "DOS_SUNSET_ORANGE": "#FF5555"
+  },
+  "A": {
+    "title": "Sample Menu Entries",
+    "items": [
+      {
+        "label": "1 Open Terminal",
+        "action": "x-terminal-emulator"
+      },
+      {
+        "label": "2 Print Documentation",
+        "action": "lp ~/my_projects/help.md"
+      },
+      {
+        "label": "3 test",
+        "action": "main.py"
+      },
+      {
+        "label": "4 System Diagnostics",
+        "action": "hardinfo2"
+      },
+      {
+        "label": "5 Select Menu Test",
+        "action": "echo \"Menu Test Successful! Python is working.\" && read -p \"Press enter to continue...\""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 Run Dashboard App",
+        "action": "gnome-chess"
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 Run Python App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3 /home/martin/my_projects/game-app/games/pong.py"
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "B": {
+    "title": "Utility Tools",
+    "items": [
+      {
+        "label": "1 Text Editor Utility",
+        "action": "nano"
+      },
+      {
+        "label": "2 File Manager",
+        "action": "nautilus"
+      },
+      {
+        "label": "3 Midnight Commander",
+        "action": "mc -x"
+      },
+      {
+        "label": "4 System Monitor",
+        "action": "gnome-system-monitor"
+      },
+      {
+        "label": "5",
+        "action": ""
+      },
+      {
+        "label": "6",
+        "action": ""
+      },
+      {
+        "label": "7",
+        "action": ""
+      },
+      {
+        "label": "8",
+        "action": ""
+      },
+      {
+        "label": "9",
+        "action": ""
+      },
+      {
+        "label": "0",
+        "action": ""
+      }
+    ]
+  },
+  "C": {
+    "title": "Arcade Games",
+    "items": [
+      {
+        "label": "1 Breakout",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/breakout.py"
+      },
+      {
+        "label": "2",
+        "action": ""
+      },
+      {
+        "label": "3 Flappy Bird",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/flappy_bird.py"
+      },
+      {
+        "label": "4",
+        "action": ""
+      },
+      {
+        "label": "5 Pong",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/pong.py"
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 Snake",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/snake.py"
+      },
+      {
+        "label": "8 Space Invaders",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/space_invaders.py"
+      },
+      {
+        "label": "9 Tetris",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/tetris.py"
+      },
+      {
+        "label": "0",
+        "action": ""
+      }
+    ]
+  },
+  "D": {
+    "title": "Board & Puzzle Games",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 Checkers",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/checkers.py"
+      },
+      {
+        "label": "3 Connect Four",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/connect_four.py"
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 Memory Game",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/memory_game.py"
+      },
+      {
+        "label": "6 Minesweeper",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/minesweeper.py"
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 Sliding Puzzle",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/sliding_puzzle.py"
+      },
+      {
+        "label": "9 Sudoku",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/game-app/bin/python3.13 /home/martin/my_projects/game-app/games/sudoku.py"
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "E": {
+    "title": "Programs",
+    "items": [
+      {
+        "label": "1 Car-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/car-app/bin/python /home/martin/my_projects/car-app/login.py"
+      },
+      {
+        "label": "2 DVD-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/dvd-app/bin/python3.13 /home/martin/my_projects/dvd-app/main_dvd_switchboard.py"
+      },
+      {
+        "label": "3 Energy-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/energy-app/bin/python3.13 /home/martin/my_projects/energy-app/tkinter_energy.py"
+      },
+      {
+        "label": "4 Finanace-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/finance-app/bin/python3.13 /home/martin/my_projects/finance-app/finance_dashboard.py"
+      },
+      {
+        "label": "5 Inventory-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/inventory-app/bin/python3.13 /home/martin/my_projects/inventory-app/main_inventory_switchboard.py"
+      },
+      {
+        "label": "6 Tax-app",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/tax-app/bin/python /home/martin/my_projects/tax-app/income_tax_calculator.py"
+      },
+      {
+        "label": "7 Utility-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/utility-app/bin/python3.13 /home/martin/my_projects/utility-app/venv_package_manager_pro.py"
+      },
+      {
+        "label": "8 Weather-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/weather-app/bin/python3.13 /home/martin/my_projects/weather-app/tkinter_weather.py"
+      },
+      {
+        "label": "9 CutList-App",
+        "action": "/home/martin/.pyenv/versions/3.13.5/envs/wood-app/bin/python3.13 /home/martin/my_projects/wood-app/cutlist_plus/cutlist_plus.py"
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "F": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "G": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "H": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "I": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "J": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "K": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "L": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "M": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "N": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "O": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "P": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "Q": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "R": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "S": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "T": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "U": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "V": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "W": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "X": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "Y": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  },
+  "Z": {
+    "title": "",
+    "items": [
+      {
+        "label": "1 ",
+        "action": ""
+      },
+      {
+        "label": "2 ",
+        "action": ""
+      },
+      {
+        "label": "3 ",
+        "action": ""
+      },
+      {
+        "label": "4 ",
+        "action": ""
+      },
+      {
+        "label": "5 ",
+        "action": ""
+      },
+      {
+        "label": "6 ",
+        "action": ""
+      },
+      {
+        "label": "7 ",
+        "action": ""
+      },
+      {
+        "label": "8 ",
+        "action": ""
+      },
+      {
+        "label": "9 ",
+        "action": ""
+      },
+      {
+        "label": "0 ",
+        "action": ""
+      }
+    ]
+  }
+}
